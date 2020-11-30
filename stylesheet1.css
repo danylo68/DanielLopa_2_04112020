@@ -136,15 +136,7 @@ form .Rechercher
   height: 15px; 
 }
 
-/*typelogement*/
-#logements
-{
-  margin-top: -1%;
-  margin-right: 200px;
-}
-
 /*choice_style*/
-
 
 .search
 {
@@ -152,12 +144,15 @@ form .Rechercher
   align-content: space-around;
   position: relative;  
 }
+
+
 /*titreFiltre*/
 .filters1
 {
   font-size: 20px;
   font-weight: 10;
 }
+
 
 #menu
 {
@@ -171,51 +166,114 @@ form .Rechercher
 
 /*choix_filtre_icon*/
 .container_filters
+
 {
-  width: 55%;
+  width: 57%;
   height: 27px;
   margin-top: 26px;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+  margin-left: 12px;
+  padding: 10px 24px 12px 17px;
 }
 
-/*choice_style*/
-i  
+/*choice_style_Filters*/
+.filters1
 {
-  color: #0065FC;
-  width: 12%;
-  height: 30px;
+  font-size: 20px;
+  margin-top: -2px;
+}
+
+.filters 
+{
+  display: flex;
+  justify-content: inherit;
+  border:#F2F2F2 solid 2px ;  
+  border-radius: 20px;
+  width: 185px;
+  height: 34px;
+}
+
+.filters i  
+{
   display: flex;
   justify-content: center;
+  color: #0065FC;
+  width: 19%;
+  display: flex;
+  justify-content: center;
+  border: solid 1px;
+  border-radius: 20px;
+  background-color: #DEEBFF;
+  padding: 8px 0px 8px 0px;
 }
 
-.filters
+
+.filters .Comments
+{
+display: flex;
+align-items: center;
+margin-right: 6px;
+}
+
+/*typelogement*/
+.logements
+{
+  margin-top: 6%;
+  margin-right: 200px;
+}
+
+/*select_hotel*/
+.section1
+{
+  width: 64%;
+  border:  #F2F2F2 solid 1px;
+  border-radius: 20px;
+  background-color:  #F2F2F2;
+}
+
+.hotel
+{
+  display: flex;;
+  flex-wrap: wrap;
+}
+
+.select_H
 {
   display: flex;
-}
+  }
 
-article
+.H_img
 {
-    margin-top: 2%;
-    margin-left: 5%;
+  border-radius: 20px 20px 0px 0px;
+  border: white solid 5px;
+  border
+
 }
 
-/*selection_habitat*/
-#hotel
+.select_H figcaption
 {
-    display: flex;;
-    flex-wrap: wrap;
-    margin-right: 45%;
-    justify-content: space-around;
-    margin-bottom: 6.5%;
-    margin-left: 5%;
+  background-color: white;
+  padding: 3px;
+  text-align: center;
+  border-radius: 0px 0px 20px 20px;
+  
 }
 
-#hotel2
+/*ssection2*/
+.hotel2
 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   margin-top: -32%;
   margin-right: 5%;
+}
+
+
+article
+{
+  margin-top: 2%;
+  margin-left: 5%;
 }
