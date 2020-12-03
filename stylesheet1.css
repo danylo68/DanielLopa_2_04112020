@@ -278,12 +278,16 @@
   {
     border-radius: 20px 20px 0px 0px;
     border: white solid 5px;
+    height: 150px;
+    width: 244px;
   }
+
 
   .select_H figcaption
   {
     background-color: white;     
     border-radius: 20px 20px 20px 20px;
+    font-size: 14px;
   }
   
    .select_H span
@@ -328,17 +332,40 @@
 
   .select_H2 figcaption
   {
-  border-radius: 10%;
+  border-radius: 13px 13px 13px 13px;
   background-color: white;
   display: inline-flex;
   margin-bottom: 18px ;
-  height: 147px;
-  width: 93%
+  padding: 9px 7px 4px 4px;
+  font-size: 14px;
+  width: 384px;
+   
   }
 
   .select_H2 img
   {
   border-radius: 19px 0px 0px 19px;
   border:solid white 6px;
-  width: 170px;
+  width: 163px;
+  height: 128px;
   }
+
+.select_H2 i
+{
+
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+font-size: 13px;
+}
+
+.stars
+{
+  display: flex;
+}
+
+figure span
+{
+  width: 148;
+  height: 107px;
+}
