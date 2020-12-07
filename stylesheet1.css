@@ -78,7 +78,6 @@
     margin-right: 40px;
     margin-left: 5px;
     font-weight: 400;
-    
   }
 
 
@@ -163,21 +162,22 @@
     justify-content: space-around;
     flex-direction: row;
     margin-right: 40%;
-    margin-top: 1%;
+    margin-top: 26px;
   }
+
 
 
   /*choix_filtre_icon*/
   .container_filters
   {
-    width: 57%;
-    height: 27px;
-    margin-top: 26px;
+    width: 67%;
+    height: 71px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    margin-left: 12px;
-    padding: 10px 24px 12px 17px;
+    align-items: baseline;      
+    font-weight: bold;
+    margin-top: 31px;
+    
   }
 
   /*choice_style_Filters*/
@@ -185,50 +185,54 @@
   {
     font-size: 20px;
     margin-top: -2px;
+    font-weight: bold;
   }
 
   .filters 
   {
     display: flex;
-    justify-content: inherit;
+    
     border:#F2F2F2 solid 2px ;  
-    border-radius: 20px;
-    width: 185px;
-    height: 34px;
+    border-radius: 30px;
+    width: 203px;
+    height: 57px;
   }
 
   .filters i  
   {
     display: flex;
-    justify-content: center;
-    width: 19%;
+    
+    width: 27%;
     display: flex;
     justify-content: center;
-    border-radius: 20px;
+    align-items: center;
+    border-radius: 43px;
     background-color: #DEEBFF;
-    padding: 8px 0px 8px 0px;
+    
   }
 
 
   .filters .Comments
   {
-  display: flex;
-  align-items: center;
-  margin-right: 6px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
   }
 
   /*typelogement*/
   .logements
   {
-    margin-top: 6%;
+    margin-top: 1%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 37px;
   }
 
   .logements p
   {
-  margin-left: 17px;  
+    margin-left: 17px;  
   }
 
   .logements i
@@ -242,7 +246,7 @@
 
   .fas ,.fa-info ,.fa-child 
   {
-  color: #0065FC; 
+    color: #0065FC; 
   }
   
 
@@ -254,8 +258,9 @@
     border:  #F2F2F2 solid 1px;
     border-radius: 20px;
     background-color:  #F2F2F2;
-    height: 619px;
+    height: 672px;
   }
+
   .comments_marseille
   {
     margin-left: 40px;
@@ -293,6 +298,7 @@
     border-radius: 20px 20px 20px 20px;
     font-size: 14px;
     height: 226px;
+    box-shadow: 0px 0px 8px lightgrey;
   }
  
   /*ssection2*/
@@ -301,15 +307,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -39%;
+    margin-top: -42%;
     margin-right: 5%;
     margin-left: 68%;
     width: 34%;
     border-radius: 4%;
     background-color: #F2F2F2;
     padding: 0px 28pxx 16px 20px;
-   
-  }
+    height: 675px;
+    }
 
   .comments2
   {
@@ -318,45 +324,46 @@
     margin-left: 47px;
     margin-top: 9px;
     align-items: center;
+    justify-content: space-between;
   }
 
   .hotel2
   {
-  display: inline-block;
+    display: inline-block;
   }
 
-  .select_H2
+  .iconChart
   {
-
+    height: 23px;
+    margin-right: 36px;
   }
 
   .select_H2 figcaption
   {
-  border-radius: 20px 20px 20px 20px;
-  background-color: white;
-  display: inline-flex;
-  margin-bottom: 24px ;
-  padding: 0px 47px 0px 0px;
-  font-size: 14px;
-  width: 390px;
-   
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    display: inline-flex;
+    margin-bottom: 24px ;
+    padding: 0px 47px 0px 0px;
+    font-size: 14px;
+    width: 390px;
+    box-shadow: 0px 0px 8px lightgrey;
   }
 
   .select_H2 img
   {
-  border-radius: 19px 0px 0px 19px;
-  border:solid white 6px;
-  width: 163px;
-  height: 128px;
+    border-radius: 19px 0px 0px 19px;
+    border:solid white 6px;
+    width: 163px;
+    height: 128px;
   }
 
 .select_H2 i
 {
-
-display: flex;
-align-items: flex-end;
-justify-content: flex-end;
-font-size: 13px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 13px;
 }
 
 .stars
@@ -368,11 +375,11 @@ font-size: 13px;
 
 .comments_populaire
 {
-  line-height: 15px;
-  width: 150px;
-  margin-left: 25px;
-  margin-right: -118px;
- }
+   line-height: 15px;
+   width: 150px;
+   margin-left: 25px;
+   margin-right: -118px;
+}
 
 
 
@@ -380,109 +387,139 @@ font-size: 13px;
  /*section3 lieux Marseille*/
 .section3
  {
- width: 102%;
+    width: 102%;
+    margin-top: 75px;
  }
 
  .Marseille
   {
-  display: flex;
-  height: 534px;
-  width: 102%;
+    display: flex;
+    height: 534px;
+    width: 102%;
   }
+
+  .comments_marseille
+{
+
+}
+
 
 .V_port 
   {
-box-shadow: 5px 5px 5px grey;
-border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 8px lightgrey;
+    border-radius: 20px 20px 20px 20px;
   }
 
-.vieux_port 
+.vieux_port
   {
    
-   width: 275px;
-   height: 437px;
-   border-radius: 20px 20px 0px 0px;
+    width: 370px;
+    height: 458px;
+    border-radius: 20px 20px 0px 0px;
       
    }
 
 .F_pomègues 
   {
   
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px grey;
-  height: 243px;
-  margin-left: 3%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px lightgrey;
+    height: 243px;
+    margin-left: 3%;
   }
 
  .pomègues
   {
-  border-radius: 20px 20px 0px 0px;
-  height: 175px;
-  width: 275px;
+    border-radius: 20px 20px 0px 0px;
+    height: 175px;
+    width: 370px;
   
   }
 
  .frioul
   {
-  border-radius: 20px 20px 0px 0px;
-  height: 175px;
-  width: 275px;
+    border-radius: 20px 20px 0px 0px;
+   height: 175px;
+    width: 370px;
   }
 
  .I_frioul 
   {
-   box-shadow: 5px 5px 5px grey;
-   border-radius: 20px;
-   height: 243px;
-   margin-top: 17%;
-   margin-left: -17%;
+    box-shadow: 0px 0px 8px lightgrey;
+    border-radius: 20px;
+    height: 250px;
+    margin-top: 17%;
+     margin-left: -22%;
 
   }
 
  .L_calanques 
 
   { 
-   box-shadow: 5px 5px 5px grey;
-   border-radius: 20px;
-   margin-left: 4%;
+    box-shadow: 0px 0px 8px lightgrey;
+    border-radius: 20px;
+    margin-left: 4%;
   }
 
  .calanques
   {
-  border-radius: 20px 20px 0px 0px;
-  height: 437px;
-  width: 275px;
+    border-radius: 20px 20px 0px 0px;
+    height: 458px;
+    width: 370px;
   
   }
 
  .notre_dame
   {
-  border-radius: 20px 20px 0px 0px;
-  height: 175px;
-  width: 275px;
+    border-radius: 20px 20px 0px 0px;
+    height: 175px;
+    width: 370px;
   }
  
   .N_dame 
    {
-   border-radius: 20px;
-   box-shadow: 5px 5px 5px grey;  
-   height: 243px;  
-   margin-left: 8%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px lightgrey;  
+    height: 243px;  
+    margin-left: 3%;
    }
 
  .parc_longchamp 
    {
-   border-radius: 20px 20px 0px 0px;
-   height: 175px;
-   width: 275px;
+    border-radius: 20px 20px 0px 0px;
+    height: 175px;
+    width: 370px;
    }
  
  .P_longchamp 
   {
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px grey;
-  height: 243px;
-  margin-top: 17%;
-  margin-left: -16%;
-
+     border-radius: 20px;
+     box-shadow: 0px 0px 8px lightgrey;
+     height: 250px;
+     margin-top: 17%;
+     margin-left: -22%;
   } 
+
+/*Commantaire_footer*/
+  .commentsfooter 
+  {   
+    width: 100%;
+    height: 50%;
+    background-color: #F2F2F2;
+    font-weight: 300;
+    margin-top: 5%;
+  }
+
+ ul li
+  {
+    list-style-type: none;
+  }
+
+ .comments_about
+  { 
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin-left: -2%;
+    line-height: 28px;
+  }
