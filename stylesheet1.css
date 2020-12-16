@@ -14,7 +14,11 @@
       font-style: normal;
   }
   
+    .general_container
+    {
+    display: flex;
     
+    }
   
   
       
@@ -565,8 +569,16 @@
      .bloc_page
       {   
         width: 95%;
-        
       }    
+      
+      .general_container
+      {
+      
+      }
+      
+      
+      
+      
       
       nav ul
       {
@@ -581,6 +593,19 @@
        display: flex;
        flex-wrap: wrap;
       } 
+      
+       nav a:hover
+      {
+    color: #0065FC;
+    border-bottom: 3px solid #0065FC;
+    font-weight: bold;
+    
+      }
+      
+      
+      
+      
+      
       
       .container_filters
       {
@@ -599,10 +624,10 @@
       
       .bloc2_populaire
       {
-      display: 0%;
+      
       width: 100%;      
       height: 100%;
-      margin-top: 5%%;
+      margin-top: 5%;
       margin-right: 0%;
       margin-left: 0%;
       padding: 0%;
@@ -663,17 +688,13 @@
     height: 208px;
     margin-left: 0px;
     }
-    
-    
-    
-    
-      
+          
+          
     .i_frioul
     {
     margin-top: 5%; 
     height: 245px;   
     margin-left: 0px;
-    
     }     
        
     
