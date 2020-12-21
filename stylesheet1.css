@@ -16,7 +16,7 @@
   
     .general_container
     {
-   
+   width: 100%;
     
     }
         
@@ -30,7 +30,7 @@
   /* marge bloc */
   .bloc_page
   {
-    width: 85%;
+    width: 90%;
     margin: auto;
   }
 
@@ -143,18 +143,16 @@
   .i
   {
     width: 12px;
-    height: 11px;
-    padding: 16px;
+    height: 26px;        
+    padding: 9px;
     background-color: #F2F2F2;
     border-radius: 12px 0px 0px 12px;
-    display: flex;
-    flex-direction: column-reverse;
+   
   }
 
   .icenter
-  {
-    margin-top: -8px;
-    height: 15px; 
+  {   
+    height: 23px; 
   }
 
   /*choice_style*/
@@ -189,12 +187,12 @@
   }
 
   /*choix_filtre_icon*/
+  
   .container_filters
   {
     width: 67%;
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;      
+    justify-content: space-between;     
     font-weight: bold;
     margin-top: 31px;
   }
@@ -203,7 +201,6 @@
   .filter_word
   {
     font-size: 20px;
-    margin-top: -2px;
     font-weight: bold;
   }
 
@@ -213,7 +210,7 @@
     border:#F2F2F2 solid 2px ;  
     border-radius: 30px;
     width: 203px;
-    height: 57px;
+    cursor: pointer;
     box-shadow: 0px 1px 1px lightgrey;
     
   }
@@ -239,8 +236,7 @@
 
   .filters .comments
   {
-    display: flex;
-    align-items: center;
+    
     margin: auto;
 
   }
@@ -283,7 +279,8 @@
     border:  #F2F2F2 solid 1px;
     border-radius: 20px;
     background-color:  #F2F2F2;
-    margin-top: -42%;
+    margin-top: -39%;
+    height: 41em;
   }
 
   .comments_marseille
@@ -300,7 +297,8 @@
   .select_h
   {
     display: flex;
-    line-height: 0;
+    line-height: 0px;
+    
   }
 
   .hébergement
@@ -326,6 +324,7 @@
     font-size: 14px;
     height: 226px;
     box-shadow: 0px 0px 8px lightgrey;
+    cursor: pointer;
   }
  
   /*ssection2_hébergement+populaire*/
@@ -336,8 +335,8 @@
     align-items: center;    
     margin-right: 5%;
     margin-left: 68%;
-    width: 34%;
-    border-radius: 4%;
+    width: auto;
+    border-radius: 20px;
     background-color: #F2F2F2;
    
    
@@ -347,16 +346,16 @@
   {
     display: flex;
     align-items: center;
-  s  margin-top: 9px;
+    margin-top: 9px;
   
   }
   
 
   .pic_bloc2
   {
-  border-radius: 20px 0px 0px 20px;
-  border: white solid 5px;
-  width: 119px;  
+    border-radius: 20px 0px 0px 20px;
+    border: white solid 5px;
+    width: 119px;  
   }
 
   
@@ -377,30 +376,32 @@
     box-shadow: 3px 3px 3px lightgrey;
     height: 140px;
     width: 336px;
+    cursor: pointer;
   }
 
   .bloc2_hotel
   {
     border-radius: 19px 0px 0px 19px;
-    width: 91%;
+    width: 100%;
+    display: contents;
   }
 
   .stars
  {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  font-size: 13px;  
-  margin-bottom: 17px;
-  margin-left: -138px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 13px;  
+    margin-bottom: 17px;
+    margin-left: -138px;
  }
 
 .comments_populaire
 {
-   line-height: 15px;
-   margin-left: 25px;
-   height: 100px;
-   width: 144px;
+    line-height: 15px;
+    margin-left: 25px;
+    height: 100px;
+    width: 144px;
  }
 
 
@@ -408,10 +409,10 @@
 
  /*section3 lieux Marseille*/
 .bloc3_activite
- {
+  {
     width: 102%;
     margin-top: 75px;
- }
+  }
 
  .marseille
   {
@@ -421,27 +422,25 @@
   }
 
   .comments_marseille
-{
+  {
 
-}
+  }
 
 
-.v_port 
+  .v_port 
   {
     box-shadow: 0px 0px 8px lightgrey;
     border-radius: 20px 20px 20px 20px;
   }
 
-.vieux_port
-  {
-   
+  .vieux_port
+  {   
     width: 370px;
     height: 458px;
-    border-radius: 20px 20px 0px 0px;
-      
+    border-radius: 20px 20px 0px 0px;    
    }
 
-.f_pomegues 
+  .f_pomegues 
   {
   
     border-radius: 20px;
@@ -458,7 +457,7 @@
   
   }
 
- .frioul
+  .frioul
   {
     border-radius: 20px 20px 0px 0px;
    height: 175px;
@@ -470,19 +469,19 @@
     box-shadow: 0px 0px 8px lightgrey;
     border-radius: 20px;
     height: 250px;
-    margin-top: 17%;
-     margin-left: -22%;
+    margin-top: 16%;
+     margin-left: -21%;
 
   }
 
- .l_calanques 
+  .l_calanques 
   { 
     box-shadow: 0px 0px 8px lightgrey;
     border-radius: 20px;
-    margin-left: 4%;
+    margin-left: 3%;
   }
 
- .calanques
+  .calanques
   {
     border-radius: 20px 20px 0px 0px;
     height: 458px;
@@ -490,7 +489,7 @@
   
   }
 
- .notre_dame
+  .notre_dame
   {
     border-radius: 20px 20px 0px 0px;
     height: 175px;
@@ -505,20 +504,20 @@
     margin-left: 3%;
    }
 
- .parc_longchamp 
+  .parc_longchamp 
    {
     border-radius: 20px 20px 0px 0px;
     height: 175px;
     width: 370px;
    }
  
- .p_longchamp 
+  .p_longchamp 
   {
      border-radius: 20px;
      box-shadow: 0px 0px 8px lightgrey;
      height: 250px;
-     margin-top: 17%;
-     margin-left: -22%;
+     margin-top: 16%;
+     margin-left: -21%;
   } 
 
 /*Commantaire_footer*/
@@ -531,12 +530,13 @@
     margin-top: 5%;
   }
 
- ul li
+  ul li
   {
     list-style-type: none;
+    cursor: pointer;
   }
 
- .comments_about
+  .comments_about
   { 
     display: flex;
     justify-content: space-around;
@@ -551,26 +551,82 @@
   
   
   /* media_tablet*/
+  
+  
+  @media all and (max-width: 1250px)
+  
+  {
+  
+  
+  .bloc_page  
+  {
+  width: 100%;
+  }
+  
+  
+  
+    
+  .container_filters    
+  {
+  
+  }  
+  
+  .bloc2_populaire
+  {
+  height: auto;
+  }
+  
+  .bloc1_hebergement
+  {
+  
+  height: auto;
+  }
+  
+  
+  .bloc3_activite
+ {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+ }
+  
+  
+  
+  
+ }  
+ 
+    
+  
   @media all and (max-width: 768px)
+     
  { 
  
+ 
+ 
+ 
+ 
+  .filter_word   
+  {
+  width: 100%;
+  }
+ 
+ 
 
 
-.findermob
-{
-padding: 10px 13px 3px 15px;
-background-color: #0065FC;
-border-radius: 16px;
-height: 30px;
-margin-left: -25px;
+  .findermob
+  {
+   padding: 10px 13px 3px 15px;
+  background-color: #0065FC;
+  border-radius: 16px;
+  height: 30px;
+  margin-left: -25px;
   display: block;
-
-}
+  }
  
  .iconchart
- {
- 
- margin-left: 25px;
+ { 
+ margin-left: 65px;
  }
  
 .fa-search
@@ -584,12 +640,15 @@ form .rechercher
  display: none;
 }
 
+form
+{
+margin-left: 83px;
+}
 
-.bloc_page
- {
- width: 100%;
- height: auto;
- }  
+
+
+
+
   
 .top_leftlogo
  {
@@ -622,64 +681,65 @@ form .rechercher
       margin-left: -83px;
       }
    
-       nav
-       {      
+    nav
+    {      
        display: flex;
        flex-wrap: wrap;
        width: 100%;
        height: auto;       
        margin-left: auto;    
-       } 
+    } 
       
-       nav a:hover
-       { 
+    nav a:hover
+    { 
        width: 50%;
        font-weight: bold; 
        border-top: none;
-       }
+    }
       
               
-      nav .activite  
-      
-      {
-       margin-left: 7px;   
-       margin-right: -47px;     
+    
+    nav .activite  
+    
+    {
+      margin-left: 7px;   
+      margin-right: -47px;     
       padding: 7px 7px 7px 7px;
       width: 170px;
       text-align: center;      
       border-bottom: 3px solid lightgrey;
-      }
+    }
               
               
-       nav .hebergement
-       {       
+    nav .hebergement
+    {       
        margin-right: -8px;
        padding: 6px 7px 7px 7px;
        width: 172px;
        text-align: center;  
        border-bottom: 3px solid #0065FC;
-       }
+    }
        
               
               
             
-       .container_filters
-       {
+    .container_filters
+    {
        display: flex;
        flex-wrap: wrap;
        width: auto;
-       }  
+    }  
       
       .comment_top_populaire
-      {
+    {
       align-items: center;
       margin-left: 0%;          
-      }
+    }
       
       
            
-      .bloc2_populaire
-      {
+    .bloc2_populaire
+    {
       display: flex; 
       flex-direction: column;
       width: 100%;      
@@ -687,169 +747,182 @@ form .rechercher
       margin-top: 0%;
       margin-right: 0%;
       margin-left: 0%;
-      padding: 0%;        
-      }  
+      padding: 0%;  
+      border-radius: 0px;
+    }  
+      
+    .bloc2_hotel
+    {
+      width: 100%;
+      display: contents;
+      border-radius: 0%;
+    }
+      
+    .bloc2_hotel figcaption
+    {
+      width: auto;
+      display: flex;
+      margin-left: -22px;
+      
+    }           
+      
+      
+      
+      
+      
+      
+      
+      
+      
               
           
-      .bloc1_hebergement
-      {
+    .bloc1_hebergement
+    {
        width: 100%;
        height: auto;
        display: contents;      
-      }
+    }
       
       
       .pic_bloc1
-      {
-      width: 97%;
-      }
-      
-      
-      
-      .select_h figcaption
-      {
-      width: 110%;
-      }
-      
-      .select_h figure
-      {
-      margin-left: 0%;
-      }
-      
-      
-      
-      
-      
-      .comments_marseille
-      {
-      margin-left: 18px;
-      }
-      
-      
-      .select_h
-      {
+    {
       width: 100%;
-      }    
+     
+    }
+      
+      
+      
+    .select_h figcaption
+    {
+      width: 100%;
+    }
+      
+    .select_h figure
+    {     
+      width: 100%;
+    }
+                
+            
+    .comments_marseille
+    {
+      margin-left: 24px;
+    }
+      
+      
+    .select_h
+    {
+      width: 100%;
+    }    
                                 
                           
-      .bloc2_hotel
-      {
-      width: 100%;
-      display: contents;
-      
-      }
-      
-      .bloc2_hotel figcaption
-      {
-      width: 249px;
-      height: 140px;
-      }           
+     
            
-      .bloc3_activite
-      {
+    .bloc3_activite
+    {
       display: inline-block;
       width: 100%;        
-      }
+    }
       
-      .marseille
-      {
+    .marseille
+    {
       width: 100%;  
       display: inline-block;
-        }
+    }
     
-      .v_port
-      {
+    .v_port
+    {
       height: 207px;
       margin-bottom: 22px;
-      }
+    }
     
       
-      .vieux_port
-      {
+    .vieux_port
+     {
       width: 100%;
       height: 145px;   
-      }
+    }
     
-     .pomegues
-     {
-     height: 145px;
-     width: 100%px;
-     }
+    .pomegues
+    {
+      height: 145px;
+      width: 100%;
+    }
     
-     .f_pomegues
-     {
-     height: 208px;
-     margin-left: 0px;
-     }
+    .f_pomegues
+    {
+      height: 208px;
+      margin-left: 0px;
+    }
         
           
     .i_frioul
     {
-    margin-top: 5%; 
-    height: 245px;   
-    margin-left: 0px;
+      margin-top: 5%; 
+      height: 245px;   
+      margin-left: 0px;
     }     
        
     
     .frioul
     {
-    height: 175px;
-    width: 100%;
+      height: 175px;
+      width: 100%;
     }
       
       
       
-      .l_calanques           
-      {
+    .l_calanques           
+    {
       margin-top: 5%;
-      width: 0%x;
+     
       height: 218px;
-      margin-left: 1%;
-      }
+      margin-left: 0%;
+    }
       
     .calanques
     {
-    height: 145px;
-    width: 100%;      
+      height: 145px;
+      width: 100%;      
     }
       
      .p_longchamp
      {
-     margin-left: 1%; 
-     height: 247px;
-     margin-top: 11%;
+       margin-left: 1%; 
+       height: 247px;
+       margin-top: 11%;
      }
       
     .parc_longchamp
     {
-    height: 183px;
-    width: 100%;  
+      height: 183px;
+      width: 100%;  
     }
       
-      .notre_dame
-     {
-    height: 175px;
-    width: 100%;        
+    .notre_dame
+    {
+      height: 175px;
+      width: 100%;        
     }
       
-      .n_dame
-      {
+    .n_dame
+    {
       height: 243px;
       margin-left: 1%;
       margin-top: 5%;
-      }
+     }
       
             
-      .comments_about
-      {
-       display: inline;
-       }
+    .comments_about
+    {
+      display: flex;
+      flex-direction: column;
+    }
       
-      .commentsfooter
-      {
+    .commentsfooter
+    {
       width: 100%;
       line-height: 30px;
-      }
+    }
       
       
              
