@@ -2,7 +2,7 @@
 <html>
       <head>
           <meta charset="utf-8" />
-          <meta name="viewport" content="width=device-width" />
+          <meta name="viewport" content="width=device-width initial-scale=1.0"/>
           <link rel="stylesheet" href="stylesheet1.css" type="text/css" />
            <script src="https://kit.fontawesome.com/f86274a797.js" crossorigin="anonymous"></script>
           <title>Reservia-Site_de_Reservation</title>
@@ -15,9 +15,9 @@
                 </div>                          
                     <nav> 
                         <ul>
-                            <li><a style="color:#0065FC;">Hébergements</a></li>
-                            <li><a>Activités</a></li> 
-                            <li><a style="color:#0065FC;">S'inscrire</a></li>
+                            <li class="hebergement"><a style="color:#0065FC;">Hébergements</a></li>
+                            <li class="activite"><a>Activités</a></li> 
+                            <li class="inscrire"><a style="color:#0065FC;">S'inscrire</a></li>
                         </ul>   
                     </nav>
                         <h1>Trouvez votre hébergement pour des vacances de rēve</h1>
@@ -32,6 +32,10 @@
                 </div>                                        
                           <input type="text" name="marseille" id="marseille" placeholder="Marseille, France" />
                           <a href="#" class="rechercher">Rechercher</a>
+                <div class="findermob">                          
+                          <i class="fas fa-search" ></i>                      
+                </div>     
+                      </p>
                       </p>
                   </form> 
             </header>          
@@ -69,11 +73,77 @@
                         <i class="fas fa-info"></i>
                         <p>Plus de 500 logements sont disponible dans cette ville</p>
                   </div>                   
-                          
+            <!--Section2_bloc_recherche_hébergement+populaire-->
+            <div class="general_container">
+            <section>
+              <div class="bloc2_populaire">
+                <div class="comment_top_populaire">
+                 <h2>Les plus populaires</h2>
+                    <img class="iconchart" src="icons/chart.svg" alt="iconcharts" />
+                  </div>
+                  <div class="bloc2_hotel">
+                    <figure>
+                      <figcaption>
+                     
+                        <img class="pic_bloc2" src="4_small/le_soleil.jpg" alt="le_soleil" />
+                        <div class="comments_populaire">
+                          <h3>Hôtel le soleil du matin</h3><br>
+                          <span>Nuit à partir de 128€</span>
+                        </div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="bloc2_hotel">
+                    <figure>
+                      <figcaption>
+                        <img class="pic_bloc2" src="4_small/au_coeur.jpg" alt="au_coeur" />
+                        <div class="comments_populaire">
+                          <h3>Au coeur de l'eau<br>Chambres d'hotes</h3><br>
+                          <span>Nuit à partir de 71€</span>
+                        </div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star" style="color: #F2F2F2;"></i>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="bloc2_hotel">
+                    <figure>
+                      <figcaption>
+                        <img class="pic_bloc2" src="4_small/bleu_blanc.jpg" alt="bleu_blanc" />
+                        <div class="comments_populaire">
+                          <h3>Hôtel tout Bleu et Blanc</h3><br>
+                          <span>Nuit à partir de 68€</span>
+                        </div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star" style="color: #F2F2F2;"></i>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              
+            </section>
+            </div>
                           <!--Section1_bloc_recherches_Hébergement-->
-                          
-<div class="general_container">
-            <section>     
+             
+
+            <section>    
                <div class="bloc1_hebergement">
                 <div class="comments_marseille">
                         <h2>Hébergements à Marseille</h2>
@@ -174,70 +244,8 @@
                       <p>Afficher plus</p>
                  </div>
             </div> 
-                <!--Section2_bloc_recherche_hébergement+populaire-->                  
-       <section>
-         <div class="bloc2_populaire">
-              <div class="comment_top_populaire">               
-                        <h2>Les plus populaires</h2>
-                        <img class="iconchart" src="icons/chart.svg" alt="iconcharts" /> 
-              </div>
-             <div class="bloc2_hotel">
-                <figure>
-                  <figcaption>
-                          <img class="pic_bloc2" src="4_small/le_soleil.jpg" alt="le_soleil" />
-                     <div class="comments_populaire">
-                          <h3>Hôtel le soleil du matin</h3><br>
-                          <span>Nuit à partir de 128€</span>
-                     </div>
-                     <div class="stars">
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>                         
-                          <i class="fas fa-star"></i>
-                     </div>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="bloc2_hotel">
-                <figure>
-                  <figcaption>
-                          <img class="pic_bloc2" src="4_small/au_coeur.jpg" alt="au_coeur" />
-                      <div class="comments_populaire">
-                          <h3>Au coeur de l'eau<br>Chambres d'hotes</h3><br>
-                          <span>Nuit à partir de 71€</span>
-                     </div>     
-                     <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star" style="color: #F2F2F2;"></i>
-                    </div>
-                  </figcaption>
-                </figure>                  
-           </div>                 
-             <div class="bloc2_hotel">
-                <figure>
-                  <figcaption>
-                          <img class="pic_bloc2" src="4_small/bleu_blanc.jpg" alt="bleu_blanc" />
-              <div class="comments_populaire">
-                          <h3>Hôtel tout Bleu et Blanc</h3><br>
-                           <span>Nuit à partir de 68€</span>
-                 </div>
-              <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star" style="color: #F2F2F2;"></i>
-                     </div>
-                  </figcaption>                   
-              </figure>
-           </div>
-       </div>
-    </section>
-     </div>
+     
+    
                         <!--Section3_bloc_Lieu_Marseille-->
 <section class="bloc3_activite">
                   <h2>Activité à Marseille</h2>
