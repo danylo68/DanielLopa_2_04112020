@@ -80,6 +80,7 @@
   {
     font-weight: 500;
     padding-top: 30px; 
+    text-decoration: none;
   }
 
   nav a:hover
@@ -297,24 +298,21 @@
   .select_h
   {
     display: flex;
-    line-height: 0px;
-    
+    line-height: 0px;        
   }
 
-  .hébergement
+  .hebergement  
   {
     margin-left: 14px;
-
+    text-align: inherit;
   }
 
   .pic_bloc1
   {
     border-radius: 20px 20px 0px 0px;
-    border: white solid 5px;
-    
+    border: white solid 5px;    
     height: 127px;
     width: 244px;
-
   }
 
   .select_h figcaption
@@ -325,6 +323,8 @@
     height: 226px;
     box-shadow: 0px 0px 8px lightgrey;
     cursor: pointer;
+    color: black;
+    display: inline-block;           
   }
  
   /*ssection2_hébergement+populaire*/
@@ -337,17 +337,14 @@
     margin-left: 68%;
     width: auto;
     border-radius: 20px;
-    background-color: #F2F2F2;
-   
-   
-    }
+    background-color: #F2F2F2;  
+  }
 
   .comment_top_populaire
   {
     display: flex;
     align-items: center;
-    margin-top: 9px;
-  
+    margin-top: 9px;  
   }
   
 
@@ -376,7 +373,7 @@
     box-shadow: 3px 3px 3px lightgrey;
     height: 140px;
     width: 336px;
-    cursor: pointer;
+    cursor: pointer;    
   }
 
   .bloc2_hotel
@@ -397,12 +394,13 @@
  }
 
 .comments_populaire
-{
+  {
     line-height: 15px;
     margin-left: 25px;
     height: 100px;
     width: 144px;
- }
+    color: black;
+  }
 
 
 
@@ -453,8 +451,7 @@
   {
     border-radius: 20px 20px 0px 0px;
     height: 175px;
-    width: 370px;
-  
+    width: 370px;  
   }
 
   .frioul
@@ -471,7 +468,6 @@
     height: 250px;
     margin-top: 16%;
      margin-left: -21%;
-
   }
 
   .l_calanques 
@@ -485,8 +481,7 @@
   {
     border-radius: 20px 20px 0px 0px;
     height: 458px;
-    width: 370px;
-  
+    width: 370px;  
   }
 
   .notre_dame
@@ -554,18 +549,13 @@
   
   
   @media all and (max-width: 1250px)
-  
   {
-  
   
   .bloc_page  
   {
   width: 100%;
   }
   
-  
-  
-    
   .container_filters    
   {
   
@@ -578,18 +568,17 @@
   
   .bloc1_hebergement
   {
-  
   height: auto;
   }
   
   
   .bloc3_activite
- {
+  {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
- }
+  }
   
   
   
@@ -601,18 +590,12 @@
   @media all and (max-width: 768px)
      
  { 
- 
- 
- 
- 
- 
+  
+  
   .filter_word   
   {
   width: 100%;
-  }
- 
- 
-
+  }  
 
   .findermob
   {
@@ -645,10 +628,6 @@ form
 margin-left: 83px;
 }
 
-
-
-
-
   
 .top_leftlogo
  {
@@ -658,15 +637,12 @@ margin-left: 83px;
   .nav a
   {
   padding-bottom: 22px;   
-  }
-    
-  
-      
+  }     
  
              
      nav li
      {
-     margin-right: 48px;
+     margin-right: 12px;
      margin-top:  11px;
      }          
        
@@ -696,8 +672,8 @@ margin-left: 83px;
        font-weight: bold; 
        border-top: none;
     }
-      
-              
+     
+    
     
     nav .activite  
     
@@ -708,8 +684,7 @@ margin-left: 83px;
       width: 170px;
       text-align: center;      
       border-bottom: 3px solid lightgrey;
-    }
-              
+    }              
               
     nav .hebergement
     {       
@@ -718,9 +693,7 @@ margin-left: 83px;
        width: 172px;
        text-align: center;  
        border-bottom: 3px solid #0065FC;
-    }
-       
-              
+    }             
               
             
     .container_filters
@@ -735,8 +708,7 @@ margin-left: 83px;
       align-items: center;
       margin-left: 0%;          
     }
-      
-      
+   
            
     .bloc2_populaire
     {
@@ -760,37 +732,24 @@ margin-left: 83px;
       
     .bloc2_hotel figcaption
     {
-      width: auto;
+      width: 100%;
       display: flex;
       margin-left: -22px;
-      
+      display: inline-flex;
     }           
-      
-      
-      
-      
-      
-      
-      
-      
-      
-              
-          
+     
     .bloc1_hebergement
     {
        width: 100%;
        height: auto;
        display: contents;      
     }
-      
-      
+           
       .pic_bloc1
     {
       width: 100%;
-     
     }
-      
-      
+    
       
     .select_h figcaption
     {
@@ -812,11 +771,12 @@ margin-left: 83px;
     .select_h
     {
       width: 100%;
+      display: inline-block;
+      margin-left: -43px;
+      
     }    
                                 
-                          
      
-           
     .bloc3_activite
     {
       display: inline-block;
