@@ -14,6 +14,13 @@
       font-style: normal;
   }
   
+  
+  
+  body
+  {
+  margin: 0%;
+  }
+  
     .general_container
     {
    width: 100%;
@@ -59,7 +66,13 @@
   nav
   {
   margin-left: 68px;
-  }   
+  }  
+  
+  .activite
+  {
+  color: black;
+
+  }
     
   nav ul
   {
@@ -193,7 +206,8 @@
   {
     width: 67%;
     display: flex;
-    justify-content: space-between;     
+    justify-content: space-between;  
+    flex-wrap: wrap;
     font-weight: bold;
     margin-top: 31px;
   }
@@ -210,9 +224,10 @@
     display: flex;
     border:#F2F2F2 solid 2px ;  
     border-radius: 30px;
-    width: 203px;
+    
     cursor: pointer;
     box-shadow: 0px 1px 1px lightgrey;
+    margin: 6px;
     
   }
   
@@ -225,7 +240,7 @@
   .filters i  
   {
     display: flex;
-    width: 27%;
+    width: 54px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,7 +253,10 @@
   .filters .comments
   {
     
-    margin: auto;
+    margin: 6px;
+    height: 40px;
+    display: flex;
+    align-items: center;
 
   }
 
@@ -551,15 +569,25 @@
   @media all and (max-width: 1250px)
   {
   
+  
+  .top_leftlogo
+  {
+  margin-left: 14px;
+  
+  }
+  
+  
+  
+  
   .bloc_page  
   {
   width: 100%;
   }
   
-  .container_filters    
-  {
+ 
+ 
   
-  }  
+
   
   .bloc2_populaire
   {
@@ -596,15 +624,25 @@
   {
   width: 100%;
   }  
+  
+      
 
   .findermob
   {
-   padding: 10px 13px 3px 15px;
+   padding: 11px 19px 2px 18px;
   background-color: #0065FC;
   border-radius: 16px;
-  height: 30px;
-  margin-left: -25px;
+  height: 39px;
+  margin-left: -29px;
   display: block;
+  }
+  
+  .i
+  {
+  width: 25px;
+  height: 28px;
+  padding: 13px;
+  
   }
  
  .iconchart
@@ -625,13 +663,15 @@ form .rechercher
 
 form
 {
-margin-left: 83px;
+height: 50px;
+margin: 15px;
+
 }
 
   
 .top_leftlogo
  {
- margin-left: 46px;
+ margin-left: 20px;
  }
  
   .nav a
@@ -639,6 +679,13 @@ margin-left: 83px;
   padding-bottom: 22px;   
   }     
  
+  h1
+  {
+  font-size: 23px;
+  margin: 20px;
+  }
+             
+             
              
      nav li
      {
@@ -693,7 +740,22 @@ margin-left: 83px;
        width: 172px;
        text-align: center;  
        border-bottom: 3px solid #0065FC;
-    }             
+    }    
+    
+    
+    .localisation
+    {
+    margin: 20px;
+    }
+    
+    
+    /*input*/
+    input
+    {
+    width: 208px;
+    height: 50px;
+    }
+    
               
             
     .container_filters
@@ -701,6 +763,7 @@ margin-left: 83px;
        display: flex;
        flex-wrap: wrap;
        width: auto;
+       margin: 19px;
     }  
       
       .comment_top_populaire
@@ -747,24 +810,25 @@ margin-left: 83px;
            
       .pic_bloc1
     {
-      width: 100%;
+      width: 96%;
     }
     
       
     .select_h figcaption
-    {
-      width: 100%;
+    {      
+      width: 107%;
     }
       
     .select_h figure
     {     
-      width: 100%;
+      
     }
                 
             
     .comments_marseille
     {
-      margin-left: 24px;
+      margin-left: 38px;
+      font-size: 15px;
     }
       
       
@@ -772,21 +836,22 @@ margin-left: 83px;
     {
       width: 100%;
       display: inline-block;
-      margin-left: -43px;
-      
+      margin-left: -7px;    
     }    
                                 
      
     .bloc3_activite
     {
       display: inline-block;
-      width: 100%;        
+      width: 87%;   
+      margin: 22px;
     }
       
     .marseille
     {
       width: 100%;  
       display: inline-block;
+      margin-top: 33px;
     }
     
     .v_port
@@ -882,6 +947,7 @@ margin-left: 83px;
     {
       width: 100%;
       line-height: 30px;
+      margin-top: 53px;
     }
       
       
