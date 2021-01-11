@@ -20,7 +20,7 @@ body {
 }
 
 .main_section {
-    max-width: 100%;
+    max-width: 90%;
     margin: auto;
 }
 
@@ -37,6 +37,7 @@ header {
 
 img {
     object-fit: cover;
+    max-width: 100%;
 }
 
 .top_leftlogo {
@@ -106,7 +107,7 @@ form {
 }
 
 input {
-    width: 232px;
+    width: 12%;
     opacity: 1;
     height: 52px;
     font-size: 18px;
@@ -253,7 +254,7 @@ form .rechercher {
     border-radius: 20px;
     background-color: #f2f2f2;
     margin-top: -671px;
-    height: auto;
+    height: 671px;
     margin-left: 80px;
 }
 
@@ -264,8 +265,7 @@ form .rechercher {
 .hotel {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: 43px;
+    justify-content: center;
 }
 
 .select_h {
@@ -319,7 +319,7 @@ form .rechercher {
 .pic_bloc2 {
     border-radius: 20px 0px 0px 20px;
     border: white solid 5px;
-    width: 119px;
+    max-width: 25%;
 }
 
 .iconchart {
@@ -332,11 +332,10 @@ form .rechercher {
     background-color: white;
     display: inline-flex;
     margin-bottom: 24px;
-
     font-size: 14px;
     box-shadow: 3px 3px 3px lightgrey;
     height: 140px;
-    width: 336px;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -366,9 +365,11 @@ form .rechercher {
 /*section3 lieux Marseille*/
 .bloc_activite {
     margin-top: 75px;
-
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
+    padding-left: 103px;
+    justify-content: center;
 }
 
 .activity {
@@ -381,13 +382,13 @@ form .rechercher {
 .marseille1 {
     display: flex;
     justify-content: center;
-    width: 59%;
+    width: auto;
 }
 
 .marseille2 {
     display: flex;
     justify-content: center;
-    width: 31%;
+    width: auto;
 }
 
 .marseille {
@@ -434,8 +435,8 @@ form .rechercher {
     height: 239px;
     width: auto;
     display: inline-block;
-    margin-left: -33%;
-    margin-top: 26%;
+    margin-left: -360px;
+    margin-top: 39%;
 }
 
 .l_calanques {
@@ -477,7 +478,7 @@ form .rechercher {
     box-shadow: 0px 0px 8px lightgrey;
     height: 250px;
     margin-top: 285px;
-    margin-left: -363px;
+    margin-left: -354px;
     display: inline-block;
 }
 
@@ -524,10 +525,14 @@ ul li {
         margin: 0%;
     }
 
+    input {
+        width: 15%;
+    }
+
     .bloc_populaire {
         margin-right: 0%;
         margin-left: 69%;
-        width: 25%;
+        width: 27%;
         height: 647px;
     }
 
@@ -538,15 +543,14 @@ ul li {
     .bloc_hebergement {
         width: 67%;
         margin-top: -645px;
-        margin-left: 37px;
+
         height: 90%;
     }
     .bloc2_hotel figcaption {
-        width: 303px;
     }
 
     .bloc2_hotel figure {
-        width: 100%;
+        width: auto;
     }
 
     .bloc2_hotel {
@@ -572,7 +576,7 @@ ul li {
         display: inline-block;
         width: 100%;
         margin-top: 75px;
-        padding-left: 50px;
+        padding-left: 69px;
     }
 
     .marseille1 {
@@ -588,6 +592,7 @@ ul li {
         justify-content: flex-end;
         margin-top: -522px;
         width: auto;
+        padding-left: 24px;
     }
 
     .v_port {
@@ -672,29 +677,34 @@ ul li {
         width: auto;
     }
 
+    .bloc2_hotel figcaption {
+        width: 500px;
+    }
+
     .bloc_hebergement {
         height: auto;
         width: auto;
         margin-top: 9%;
-        display: inline-block;
+        display: contents;
         width: 100%;
     }
 
     .hotel {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 4%;
+        justify-content: center;
+        padding-left: 80px;
     }
 
     .bloc_activite {
         width: 100%;
         height: auto;
         display: flex;
-        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .marseille1 {
-        display: flex;
+        display: inline-flex;
         margin: 0;
         justify-content: center;
         width: auto;
@@ -713,6 +723,8 @@ ul li {
         justify-content: center;
         margin-top: 10%;
         width: auto;
+        padding-left: 0px;
+        padding-right: 46px;
     }
 
     .p_longchamp {
@@ -724,6 +736,12 @@ ul li {
     .marseille {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .select_h {
+        display: flex;
+        line-height: 0px;
+        width: auto;
     }
 }
 
@@ -845,7 +863,7 @@ ul li {
 
     /*input*/
     input {
-        width: 208px;
+        width: 50%;
         height: 57px;
     }
 
@@ -879,18 +897,15 @@ ul li {
         border-radius: 0px;
     }
 
-    .bloc2_hotel figure {
-    }
-
     .bloc2_hotel {
-        display: block;
+        display: inline-flex;
         border-radius: 0%;
         margin-left: 0%;
     }
 
     .bloc2_hotel figcaption {
-        display: flex;
         display: inline-flex;
+        width: auto;
     }
 
     .pic_bloc2 {
@@ -933,12 +948,32 @@ ul li {
     .bloc_activite {
         display: inline-block;
         width: 90%;
+        display: flex;
+        flex-direction: column;
     }
 
     .marseille {
         width: 90%;
         display: inline-block;
         margin-top: 33px;
+    }
+
+    .marseille1 {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        width: auto;
+        flex-direction: column;
+    }
+    .marseille2 {
+        display: flex;
+        margin: 0;
+        margin-top: 0px;
+        margin-top: 0px;
+        justify-content: center;
+        margin-top: 10%;
+        width: auto;
+        flex-direction: column;
     }
 
     .v_port {
@@ -1057,12 +1092,20 @@ ul li {
         width: 343px;
     }
 
+    .activity {
+        padding-left: 27px;
+    }
+
     .bloc_activite {
         display: inline-block;
         width: 90%;
         margin: 0px;
         padding-top: 16px;
         padding-left: 7%;
+    }
+
+    .marseille2 {
+        padding-right: 0px;
     }
 
     nav {
@@ -1103,11 +1146,15 @@ ul li {
     form {
         margin-left: 0px;
         width: 90%;
+        display: flex;
+        padding: 22px 14px;
+        padding-left: 19px;
     }
 
     input {
-        width: 215px;
+        width: 66%;
         height: 59px;
+        display: flex;
     }
 
     .logements {
