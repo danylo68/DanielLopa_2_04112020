@@ -266,12 +266,13 @@ form .rechercher {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 
 .select_h {
     display: flex;
     line-height: 0px;
-    width: 31%;
+    width: 30%;
 }
 
 .hebergement {
@@ -283,7 +284,7 @@ form .rechercher {
     border-radius: 20px 20px 0px 0px;
     border: white solid 5px;
     height: 127px;
-    width: 244px;
+    width: 262px;
 }
 
 .select_h figcaption {
@@ -295,6 +296,7 @@ form .rechercher {
     cursor: pointer;
     color: black;
     display: inline-block;
+    width: 273px;
 }
 
 /*ssection2_hébergement+populaire*/
@@ -302,7 +304,6 @@ form .rechercher {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     margin-left: 71%;
     width: 24%;
     border-radius: 20px;
@@ -319,7 +320,7 @@ form .rechercher {
 .pic_bloc2 {
     border-radius: 20px 0px 0px 20px;
     border: white solid 5px;
-    max-width: 25%;
+    width: 28%;
 }
 
 .iconchart {
@@ -341,7 +342,6 @@ form .rechercher {
 
 .bloc2_hotel {
     border-radius: 19px 0px 0px 19px;
-
     display: flex;
 }
 
@@ -391,12 +391,6 @@ form .rechercher {
     width: auto;
 }
 
-.marseille {
-    display: flex;
-    height: 534px;
-    width: 90%;
-}
-
 .v_port {
     box-shadow: 0px 0px 8px lightgrey;
     border-radius: 20px 20px 20px 20px;
@@ -425,7 +419,7 @@ form .rechercher {
 
 .frioul {
     border-radius: 20px 20px 0px 0px;
-    height: 175px;
+    height: 168px;
     width: 370px;
 }
 
@@ -546,14 +540,9 @@ ul li {
 
         height: 90%;
     }
-    .bloc2_hotel figcaption {
-    }
 
     .bloc2_hotel figure {
         width: auto;
-    }
-
-    .bloc2_hotel {
     }
 
     .hotel {
@@ -569,7 +558,7 @@ ul li {
 
     .pic_bloc1 {
         height: 127px;
-        width: 211px;
+        width: 95%;
     }
 
     .bloc_activite {
