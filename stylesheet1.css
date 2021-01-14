@@ -12,22 +12,26 @@
 /* rules body */
 
 body {
-    font-family: "ralewayregular, serif";
-
+    font-family: "ralewayregular    ";
     font-style: normal;
     margin: 0%;
     width: 100%;
 }
 
+.bloc_page {
+    max-width: 1543px;
+    margin: auto;
+}
+
 .main_section {
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
 }
 
 /*--reservia--*/
 
 header {
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
@@ -182,7 +186,6 @@ form .rechercher {
     flex-wrap: wrap;
     font-weight: bold;
     margin-top: 31px;
-    padding-left: 95px;
 }
 
 /*choice_style_Filters*/
@@ -228,7 +231,6 @@ form .rechercher {
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 37px;
-    padding-left: 95px;
 }
 
 .logements p {
@@ -249,17 +251,17 @@ form .rechercher {
 
 /*Section1_recherches_Hébergement*/
 .bloc_hebergement {
-    width: 66%;
+    width: 69%;
     border: #f2f2f2 solid 1px;
     border-radius: 20px;
     background-color: #f2f2f2;
     margin-top: -671px;
     height: 671px;
-    margin-left: 80px;
+    margin-left: -9px;
 }
 
 .comments_marseille {
-    margin-left: 40px;
+    margin-left: 61px;
 }
 
 .hotel {
@@ -272,7 +274,7 @@ form .rechercher {
 .select_h {
     display: flex;
     line-height: 0px;
-    width: 30%;
+    width: 32%;
 }
 
 .hebergement {
@@ -304,8 +306,8 @@ form .rechercher {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 71%;
-    width: 24%;
+    margin-left: 73%;
+    width: 27%;
     border-radius: 20px;
     background-color: #f2f2f2;
     height: 671px;
@@ -351,7 +353,7 @@ form .rechercher {
     justify-content: flex-end;
     font-size: 13px;
     margin-bottom: 17px;
-    margin-left: -138px;
+    margin-left: -146px;
 }
 
 .comments_populaire {
@@ -365,10 +367,8 @@ form .rechercher {
 /*section3 lieux Marseille*/
 .bloc_activite {
     margin-top: 75px;
-    width: 90%;
+    width: 95%;
     display: flex;
-
-    padding-left: 103px;
     justify-content: center;
 }
 
@@ -381,26 +381,42 @@ form .rechercher {
 
 .marseille1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 50%;
+    margin: 20px;
+}
+
+.m1_horizon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .marseille2 {
     display: flex;
     justify-content: center;
     width: 50%;
+    margin: 20px;
+    margin-right: -4%;
+}
+.m2_pics_horizons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .v_port {
     box-shadow: 0px 0px 8px lightgrey;
     border-radius: 20px 20px 20px 20px;
     display: inline-block;
-    width: 48%;
+    width: 100%;
+    height: 96%;
+    margin-right: 27px;
 }
 
 .vieux_port {
     width: 100%;
-    height: 505px;
+    height: 485px;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -408,9 +424,9 @@ form .rechercher {
     border-radius: 20px;
     box-shadow: 0px 0px 8px lightgrey;
     height: 291px;
-    margin-left: 29px;
+
     display: inline-block;
-    width: 48%;
+    width: 100%;
     height: 57%;
 }
 
@@ -422,64 +438,70 @@ form .rechercher {
 
 .frioul {
     border-radius: 20px 20px 0px 0px;
-    height: 156px;
+    height: 149px;
     width: 100%;
 }
 
 .i_frioul {
     box-shadow: 0px 0px 8px lightgrey;
     border-radius: 20px;
-    height: 40%;
-    width: 48%;
+    height: 37%;
+    width: 100%;
     display: inline-block;
-    margin-left: -48%;
-    margin-top: 350px;
+    margin-top: 25px;
 }
 
 .l_calanques {
     box-shadow: 0px 0px 8px lightgrey;
     border-radius: 20px;
-    margin-left: 39px;
+
     display: inline-block;
-    width: 48%;
+    width: 100%;
+    height: 97%;
 }
 
 .calanques {
     border-radius: 20px 20px 0px 0px;
-    height: 503px;
-    width: 370px;
+    height: 485px;
+    width: 100%;
     display: inline-block;
+}
+.m2_pics_horizons {
+    display: flex;
+
+    width: 100%;
+    flex-direction: column;
+    padding: 0px;
+    margin-left: 30px;
 }
 
 .notre_dame {
     border-radius: 20px 20px 0px 0px;
-    height: 199px;
-    width: 370px;
+    height: 174px;
+    width: 100%;
 }
 
 .n_dame {
     border-radius: 20px;
     box-shadow: 2px 2px 2px lightgrey;
-    height: 269px;
-    margin-left: 6%;
+    height: 240px;
     display: inline-block;
-    width: 48%;
+    width: 100%;
 }
 
 .parc_longchamp {
     border-radius: 20px 20px 0px 0px;
-    height: 211px;
-    width: 370px;
+    height: 219px;
+    width: 100%;
 }
 
 .p_longchamp {
     border-radius: 20px;
     box-shadow: 0px 0px 8px lightgrey;
-    height: 292px;
-    margin-top: 291px;
-    margin-left: -44%;
+    height: 51%;
+    margin-top: 26px;
     display: inline-block;
-    width: 48%;
+    width: 100%;
 }
 
 /*Commantaire_footer*/
@@ -521,8 +543,13 @@ ul li {
         margin: auto;
     }
     .main_section {
-        max-width: 90%;
+        max-width: 100%;
         margin: 0%;
+    }
+
+    .bloc_page {
+        max-width: 1242px;
+        margin: auto;
     }
 
     input {
@@ -531,8 +558,8 @@ ul li {
 
     .bloc_populaire {
         margin-right: 0%;
-        margin-left: 69%;
-        width: 27%;
+        margin-left: 71%;
+        width: 29%;
         height: 647px;
     }
 
@@ -541,9 +568,9 @@ ul li {
     }
 
     .bloc_hebergement {
-        width: 67%;
+        width: 73%;
         margin-top: -645px;
-
+        margin-left: 0;
         height: 90%;
     }
 
@@ -554,7 +581,7 @@ ul li {
     .hotel {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 0%;
+        margin-left: 2%;
     }
 
     .select_h figcaption {
@@ -568,48 +595,48 @@ ul li {
     }
 
     .bloc_activite {
-        display: inline-block;
+        display: flex;
         width: 100%;
         margin-top: 75px;
-        padding-left: 69px;
     }
 
     .marseille1 {
         display: flex;
         margin: 0;
         justify-content: flex-start;
-        width: auto;
+        width: 100%;
     }
 
     .marseille2 {
         display: flex;
         margin: 0;
         justify-content: flex-end;
-        margin-top: -566px;
-        width: auto;
-        padding-left: 24px;
-    }
 
-    .v_port {
-        width: 23%;
-    }
-
-    .vieux_port {
-        width: ;
-    }
-
-    .f_pomegues {
-        width: 23%;
-        margin-left: 3%;
-    }
-    .pomegues {
         width: 100%;
     }
 
+    .v_port {
+        width: 100%;
+        height: 99%;
+    }
+
+    .vieux_port {
+        width: 100%;
+        height: 489px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .f_pomegues {
+        width: 100%;
+    }
+    .pomegues {
+        width: 100%;
+        height: 239px;
+    }
+
     .i_frioul {
-        width: 23%;
-        margin-left: -23%;
-        margin-top: 27%;
+        width: 100%;
+
         height: 219px;
     }
 
@@ -618,8 +645,8 @@ ul li {
     }
 
     .l_calanques {
-        margin-left: 3%;
-        width: 23%;
+        margin-left: 30px;
+        width: 100%;
         height: 537px;
     }
 
@@ -628,8 +655,8 @@ ul li {
     }
 
     .n_dame {
-        margin-left: 3%;
-        width: 24%;
+        margin-left: 0px;
+        width: 100%;
     }
 
     .notre_dame {
@@ -637,9 +664,8 @@ ul li {
     }
 
     .p_longchamp {
-        margin-left: -24%;
-        width: 24%;
-        margin-top: 23%;
+        width: 100%;
+        margin-top: 7%;
         margin-right: -25px;
         height: 282px;
     }
@@ -669,6 +695,11 @@ ul li {
         padding: 27px;
     }
 
+    header {
+        width: 95%;
+        margin: auto;
+    }
+
     .bloc_populaire {
         height: auto;
         margin-right: 0%;
@@ -682,7 +713,7 @@ ul li {
 
     .bloc_hebergement {
         height: auto;
-        width: auto;
+        width: 69%;
         margin-top: 9%;
         display: contents;
         width: 100%;
@@ -692,7 +723,7 @@ ul li {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding-left: 80px;
+        margin-left: 0;
     }
 
     .bloc_activite {
@@ -707,20 +738,19 @@ ul li {
         display: inline-flex;
         margin: 0;
         justify-content: center;
-        width: 100%;
+        width: 90%;
     }
     .v_port {
-        width: 40%;
+        width: 100%;
     }
     .f_pomegues {
-        width: 40%;
-        margin-left: 3%;
+        width: 100%;
+        margin-left: 18px;
     }
 
     .i_frioul {
-        width: 40%;
-        margin-left: -40%;
-        margin-top: 31%;
+        width: 100%;
+        margin-left: 18px;
     }
 
     .marseille2 {
@@ -729,28 +759,20 @@ ul li {
         margin-top: 0px;
         justify-content: center;
         margin-top: 10%;
-        width: auto;
-        padding-left: 0px;
-        margin-left: -33px;
+        width: 90%;
     }
 
     .p_longchamp {
-        margin-left: -40%;
-        width: 40%;
-        margin-top: 26%;
-        height: 247px;
+        width: 100%;
+        margin-top: 5%;
+        height: 279px;
     }
     .l_calanques {
-        width: 40%;
-        height: 563px;
+        width: 100%;
+        height: 543px;
     }
     .n_dame {
-        width: 40%;
-    }
-
-    .marseille2 {
-        display: flex;
-        flex-wrap: wrap;
+        width: 100%;
     }
 
     .select_h {
@@ -762,6 +784,9 @@ ul li {
 
 @media all and (max-width: 768px) {
     body {
+        width: 100%;
+    }
+    header {
         width: 100%;
     }
 
@@ -804,6 +829,7 @@ ul li {
         display: flex;
         width: 90%;
         margin: 0;
+        padding-left: 20px;
     }
 
     .top_leftlogo {
@@ -835,6 +861,7 @@ ul li {
         margin-top: -60px;
         justify-content: flex-end;
         align-items: center;
+        padding-left: 0%;
     }
 
     nav {
@@ -853,10 +880,12 @@ ul li {
 
     nav .activite {
         margin-right: 0px;
-        padding: 12px 21px 15px 23px;
-        width: 156px;
+        padding: 12px 0px 15px 0px;
+        width: 50%;
         text-align: center;
         border-bottom: 3px solid lightgrey;
+        display: flex;
+        justify-content: center;
     }
 
     nav .activite:hover {
@@ -864,11 +893,14 @@ ul li {
     }
 
     nav .hebergement {
-        padding: 10px 13px 12px 12px;
-        width: 159px;
+        padding: 10px 0px 12px 0px;
+        width: 50%;
         text-align: center;
         border-bottom: 3px solid #0065fc;
         margin-bottom: -4px;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
     }
 
     .localisation {
@@ -887,7 +919,7 @@ ul li {
         flex-wrap: wrap;
         width: 90%;
         margin: 0px;
-        padding-left: 27px;
+        padding-left: 30px;
         justify-content: flex-start;
     }
 
@@ -898,6 +930,12 @@ ul li {
     .comment_top_populaire {
         align-items: center;
         margin-left: 0%;
+        justify-content: space-between;
+        width: 89%;
+    }
+
+    .logements {
+        padding-left: 36px;
     }
 
     .bloc_populaire {
@@ -916,6 +954,7 @@ ul li {
         display: inline-flex;
         border-radius: 0%;
         margin-left: 0%;
+        width: 100%;
     }
 
     .bloc2_hotel figcaption {
@@ -956,8 +995,8 @@ ul li {
 
     .hotel {
         margin-left: 0%;
-        width: 90%;
-        padding-left: 52px;
+        width: 100%;
+        display: flex;
     }
 
     .bloc_activite {
@@ -967,18 +1006,13 @@ ul li {
         flex-direction: column;
     }
 
-    .marseille {
-        width: 90%;
-        display: inline-block;
-        margin-top: 33px;
-    }
-
     .marseille1 {
         display: flex;
         margin: 0;
         justify-content: center;
-        width: auto;
+        width: 100%;
         flex-direction: column;
+        margin-left: 6%;
     }
     .marseille2 {
         display: flex;
@@ -987,7 +1021,7 @@ ul li {
         margin-top: 0px;
         justify-content: center;
         margin-top: 10%;
-        width: auto;
+        width: 100%;
         flex-direction: column;
     }
 
@@ -1030,7 +1064,6 @@ ul li {
         margin-top: 5%;
         width: 100%;
         height: 218px;
-        margin-left: 0%;
     }
 
     .calanques {
@@ -1128,23 +1161,27 @@ ul li {
     }
 
     nav ul {
-        margin-left: -68px;
+        margin-left: 0px;
     }
 
     nav .activite {
-        margin-right: -61px;
-        padding: 12px 18px 15px 23px;
+        margin-right: 0px;
+        padding: 12px 0px 15px 0px;
         text-align: center;
-        width: 44%;
+        width: 50%;
         border-bottom: 4px solid lightgrey;
+        display: flex;
+        justify-content: center;
     }
 
     nav .hebergement {
-        padding: 10px 13px 12px 12px;
-        width: 46%;
+        padding: 10px 0px 12px 0px;
+        width: 50%;
         text-align: center;
         border-bottom: 4px solid #0065fc;
         margin-bottom: -5px;
+        display: flex;
+        justify-content: center;
     }
 
     nav li {
@@ -1159,16 +1196,17 @@ ul li {
     }
 
     form {
-        margin-left: 5px;
         width: 100%;
         display: flex;
-        padding: 22px 14px;
+        padding: 22px 0px;
+        justify-content: center;
     }
 
     input {
-        width: 66%;
+        width: 60%;
         height: 59px;
         display: flex;
+        justify-content: center;
     }
 
     .logements {
@@ -1186,21 +1224,21 @@ ul li {
 
     .bloc2_hotel figure {
         padding-left: 0;
-        width: auto;
+        width: 87%;
     }
 
     .bloc2_hotel {
-        margin-left: 0%;
+        margin-left: -11%;
         padding-left: 0%;
         width: 100%;
     }
 
     .pic_bloc2 {
-        width: 35%;
+        width: 38%;
     }
 
     .comments_marseille {
-        margin-left: -31px;
+        margin-left: 31px;
     }
 
     .marseille {
@@ -1217,11 +1255,11 @@ ul li {
     }
 
     .comment_top_populaire {
-        margin-left: -13%;
+        margin-left: -3%;
     }
 
     .inscrire {
-        margin-right: -53px;
+        margin-right: 0px;
     }
 
     h1 {
@@ -1252,6 +1290,14 @@ ul li {
         padding-left: 30px;
     }
 
+    .l_calanques {
+        margin-left: 18px;
+    }
+
+    .marseille1 {
+        margin-left: 0;
+    }
+
     .findermob {
         height: 47px;
     }
@@ -1266,5 +1312,14 @@ ul li {
     .select_h figcaption {
         width: 100%;
         height: 212px;
+    }
+
+    .m2_pics_horizons {
+        margin-left: 0;
+    }
+
+    nav ul .avtivite .hebergement {
+        display: flex;
+        flex-direction: row;
     }
 }
