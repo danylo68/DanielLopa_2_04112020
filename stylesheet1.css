@@ -234,7 +234,7 @@ form .rechercher {
 }
 
 .logements p {
-    margin-left: 17px;
+    margin-left: 22px;
 }
 
 .logements i {
@@ -257,11 +257,10 @@ form .rechercher {
     background-color: #f2f2f2;
     margin-top: -671px;
     height: 671px;
-    margin-left: -9px;
 }
 
-.comments_marseille {
-    margin-left: 61px;
+.comments_heb_marseille {
+    margin-left: 60px;
 }
 
 .hotel {
@@ -366,8 +365,8 @@ form .rechercher {
 
 /*section3 lieux Marseille*/
 .bloc_activite {
-    margin-top: 75px;
-    width: 95%;
+    margin-top: 45px;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -375,7 +374,7 @@ form .rechercher {
 .activity {
     display: flex;
     justify-content: flex-start;
-    padding-left: 104px;
+    padding-left: -8px;
     padding-top: 63px;
 }
 
@@ -383,7 +382,6 @@ form .rechercher {
     display: flex;
     justify-content: flex-start;
     width: 50%;
-    margin: 20px;
 }
 
 .m1_horizon {
@@ -396,8 +394,8 @@ form .rechercher {
     display: flex;
     justify-content: center;
     width: 50%;
-    margin: 20px;
-    margin-right: -4%;
+    margin-left: 31px;
+    margin-right: 0;
 }
 .m2_pics_horizons {
     display: flex;
@@ -410,13 +408,13 @@ form .rechercher {
     border-radius: 20px 20px 20px 20px;
     display: inline-block;
     width: 100%;
-    height: 96%;
+    height: 98%;
     margin-right: 27px;
 }
 
 .vieux_port {
     width: 100%;
-    height: 485px;
+    height: 480px;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -432,13 +430,13 @@ form .rechercher {
 
 .pomegues {
     border-radius: 20px 20px 0px 0px;
-    height: 272px;
+    height: 252px;
     width: 100%;
 }
 
 .frioul {
     border-radius: 20px 20px 0px 0px;
-    height: 149px;
+    height: 145px;
     width: 100%;
 }
 
@@ -448,21 +446,21 @@ form .rechercher {
     height: 37%;
     width: 100%;
     display: inline-block;
-    margin-top: 25px;
+    margin-top: 21px;
 }
 
 .l_calanques {
     box-shadow: 0px 0px 8px lightgrey;
     border-radius: 20px;
-
+    margin-right: 27px;
     display: inline-block;
     width: 100%;
-    height: 97%;
+    height: 98%;
 }
 
 .calanques {
     border-radius: 20px 20px 0px 0px;
-    height: 485px;
+    height: 480px;
     width: 100%;
     display: inline-block;
 }
@@ -491,17 +489,21 @@ form .rechercher {
 
 .parc_longchamp {
     border-radius: 20px 20px 0px 0px;
-    height: 219px;
+    height: 213px;
     width: 100%;
 }
 
 .p_longchamp {
     border-radius: 20px;
     box-shadow: 0px 0px 8px lightgrey;
-    height: 51%;
-    margin-top: 26px;
+    height: 50%;
+    margin-top: 23px;
     display: inline-block;
     width: 100%;
+}
+
+.comments_marseille {
+    margin-left: 63px;
 }
 
 /*Commantaire_footer*/
@@ -528,7 +530,7 @@ ul li {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin-left: -8%;
+    margin-left: -5%;
     line-height: 28px;
 }
 
@@ -564,11 +566,15 @@ ul li {
     }
 
     .logements {
-        padding-left: 43px;
+        padding-left: 0px;
+    }
+
+    .logements p {
+        margin-left: 22px;
     }
 
     .bloc_hebergement {
-        width: 73%;
+        width: 68%;
         margin-top: -645px;
         margin-left: 0;
         height: 90%;
@@ -581,7 +587,14 @@ ul li {
     .hotel {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 2%;
+        margin-left: -2%;
+        justify-content: center;
+    }
+
+    .select_h {
+        display: flex;
+        line-height: 0px;
+        width: 31%;
     }
 
     .select_h figcaption {
@@ -636,22 +649,23 @@ ul li {
 
     .i_frioul {
         width: 100%;
-
-        height: 219px;
+        height: 210px;
     }
 
     .frioul {
         width: 100%;
+        height: 152px;
     }
 
     .l_calanques {
         margin-left: 30px;
         width: 100%;
-        height: 537px;
+        height: 550px;
     }
 
     .calanques {
         width: 100%;
+        height: 489px;
     }
 
     .n_dame {
@@ -665,18 +679,24 @@ ul li {
 
     .p_longchamp {
         width: 100%;
-        margin-top: 7%;
+        margin-top: 9%;
         margin-right: -25px;
         height: 282px;
     }
 
     .parc_longchamp {
         width: 100%;
-        height: 211px;
+        height: 222px;
     }
 
     .iconchart {
         margin-left: 57px;
+    }
+    .comments_heb_marseille {
+    }
+
+    .comments_marseille {
+        margin-left: 17px;
     }
 }
 
@@ -692,12 +712,34 @@ ul li {
     }
 
     form {
-        padding: 27px;
+        padding: 0px;
+        display: flex;
+        justify-content: flex-start;
     }
 
     header {
         width: 95%;
         margin: auto;
+    }
+    .comment_top_populaire {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 2px;
+    }
+
+    .iconchart {
+        margin-left: 278 px;
+    }
+
+    .container_filters {
+        display: flex;
+        justify-content: center;
+        margin-left: -11px;
+    }
+
+    .logements {
+        padding-left: 32px;
     }
 
     .bloc_populaire {
@@ -717,6 +759,12 @@ ul li {
         margin-top: 9%;
         display: contents;
         width: 100%;
+    }
+
+    .comments_marseille {
+        margin-left: 57px;
+    }
+    .comments_heb_marseille {
     }
 
     .hotel {
@@ -986,6 +1034,9 @@ ul li {
         padding-left: 56px;
     }
 
+    .comments_heb_marseille {
+    }
+
     .select_h {
         width: 100%;
         display: inline-block;
@@ -1238,7 +1289,11 @@ ul li {
     }
 
     .comments_marseille {
-        margin-left: 31px;
+        margin-left: -37px;
+    }
+
+    .comments_heb_marseille {
+    margin-left: 26px;
     }
 
     .marseille {
@@ -1291,7 +1346,9 @@ ul li {
     }
 
     .l_calanques {
-        margin-left: 18px;
+        margin-left: 0px;
+            margin-top: 0;
+}
     }
 
     .marseille1 {
