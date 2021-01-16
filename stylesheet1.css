@@ -12,7 +12,7 @@
 /* rules body */
 
 body {
-    font-family: "ralewayregular    ";
+    font-family: "ralewayregular";
     font-style: normal;
     margin: 0%;
     width: 100%;
@@ -273,7 +273,8 @@ form .rechercher {
 .select_h {
     display: flex;
     line-height: 0px;
-    width: 32%;
+    width: 33%;
+    display: inline-block;
 }
 
 .hebergement {
@@ -321,7 +322,7 @@ form .rechercher {
 .pic_bloc2 {
     border-radius: 20px 0px 0px 20px;
     border: white solid 5px;
-    width: 28%;
+    width: 37%;
 }
 
 .iconchart {
@@ -692,8 +693,6 @@ ul li {
     .iconchart {
         margin-left: 57px;
     }
-    .comments_heb_marseille {
-    }
 
     .comments_marseille {
         margin-left: 17px;
@@ -763,8 +762,6 @@ ul li {
 
     .comments_marseille {
         margin-left: 57px;
-    }
-    .comments_heb_marseille {
     }
 
     .hotel {
@@ -999,7 +996,7 @@ ul li {
     }
 
     .bloc2_hotel {
-        display: inline-flex;
+        display: content;
         border-radius: 0%;
         margin-left: 0%;
         width: 100%;
@@ -1032,9 +1029,6 @@ ul li {
     .comments_marseille {
         font-size: 15px;
         padding-left: 56px;
-    }
-
-    .comments_heb_marseille {
     }
 
     .select_h {
@@ -1293,7 +1287,7 @@ ul li {
     }
 
     .comments_heb_marseille {
-    margin-left: 26px;
+        margin-left: 26px;
     }
 
     .marseille {
@@ -1347,8 +1341,7 @@ ul li {
 
     .l_calanques {
         margin-left: 0px;
-            margin-top: 0;
-}
+        margin-top: 0;
     }
 
     .marseille1 {
