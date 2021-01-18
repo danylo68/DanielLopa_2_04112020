@@ -45,7 +45,7 @@ img {
 }
 
 .top_leftlogo {
-    margin-top: 1%;
+    margin-top: 15px;
     width: 100px;
 }
 
@@ -62,6 +62,10 @@ nav {
 }
 
 .activite :visited {
+    color: black;
+}
+
+nav .activite {
     color: black;
 }
 
@@ -562,7 +566,7 @@ ul li {
         margin-right: 0%;
         margin-left: 71%;
         width: 29%;
-        height: 647px;
+        height: 640px;
     }
 
     .logements {
@@ -575,7 +579,7 @@ ul li {
 
     .bloc_hebergement {
         width: 68%;
-        margin-top: -638px;
+        margin-top: -640px;
         margin-left: 0;
         height: 90%;
     }
