@@ -256,15 +256,15 @@ form .rechercher {
 /*Section1_recherches_Hébergement*/
 .bloc_hebergement {
     width: 69%;
-    border: #f2f2f2 solid 1px;
     border-radius: 20px;
     background-color: #f2f2f2;
-    margin-top: -671px;
-    height: 671px;
+    margin-top: -691px;
+    height: 692px;
 }
 
 .comments_heb_marseille {
     margin-left: 44px;
+    padding-top: 2px;
 }
 
 .hotel {
@@ -272,6 +272,7 @@ form .rechercher {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    margin-top: 18px;
 }
 
 .select_h {
@@ -314,7 +315,7 @@ form .rechercher {
     width: 27%;
     border-radius: 20px;
     background-color: #f2f2f2;
-    height: 671px;
+    height: 692px;
 }
 
 .comment_top_populaire {
@@ -344,6 +345,10 @@ form .rechercher {
     height: 140px;
     width: 100%;
     cursor: pointer;
+}
+
+.bloc2_hotel figure {
+    display: inline-block;
 }
 
 .bloc2_hotel {
@@ -379,7 +384,7 @@ form .rechercher {
 .activity {
     display: flex;
     justify-content: flex-start;
-    padding-left: -8px;
+
     padding-top: 63px;
 }
 
@@ -732,7 +737,7 @@ ul li {
     }
 
     .iconchart {
-        margin-left: 278 px;
+        margin-left: 278px;
     }
 
     .container_filters {
