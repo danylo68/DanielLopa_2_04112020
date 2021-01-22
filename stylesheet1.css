@@ -61,11 +61,14 @@ nav {
     margin-left: 68px;
 }
 
-.activite :visited {
+nav .activite {
     color: black;
 }
 
-nav .activite {
+nav .hebergement {
+    color: black;
+}
+nav .inscrire {
     color: black;
 }
 
@@ -86,16 +89,13 @@ nav a {
     font-weight: 500;
     padding-top: 30px;
     text-decoration: none;
+    color: black;
 }
 
 nav a:hover {
     color: #0065fc;
     border-top: 3px solid #0065fc;
     font-weight: bold;
-}
-
-nav .hebergement :visited {
-    color: #0065fc;
 }
 
 /*in_city*/
