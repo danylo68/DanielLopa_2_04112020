@@ -1298,14 +1298,14 @@ ul li {
 
     .bloc2_hotel figure {
         padding-left: 0;
-        width: 100%;
-        display: contents;
+        width: 80%;
+        display: inline-block;
     }
 
     .bloc2_hotel {
         margin-left: 0%;
         padding-left: 0%;
-        width: 85%;
+        width: 100%;
     }
 
     .pic_bloc2 {
