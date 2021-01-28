@@ -253,6 +253,10 @@ form .rechercher {
     color: #0065fc;
 }
 
+.stars span {
+    color: lightgrey;
+}
+
 /*Section1_recherches_Hébergement*/
 .bloc_hebergement {
     width: 69%;
@@ -285,6 +289,9 @@ form .rechercher {
 .hebergement {
     margin-left: 14px;
     text-align: inherit;
+}
+.hebergement span {
+    color: lightgrey;
 }
 
 .pic_bloc1 {
